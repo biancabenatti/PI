@@ -1,0 +1,30 @@
+/* src/pages/Tips.css */
+.tips-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .tip-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .tip-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .tip-button:hover {
+    background-color: #0056b3;
+  }
+  

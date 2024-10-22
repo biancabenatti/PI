@@ -1,0 +1,30 @@
+.faq {
+    display: flex;
+    padding: 20px;
+}
+
+.faq-image {
+    flex: 1;
+}
+
+.faq-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.faq-content {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.faq-item {
+    margin: 10px 0;
+    cursor: pointer;
+    
+}
+
+.faq-toggle {
+    margin-left: 10px;
+    color: #007bff;
+    font-weight: bold;
+}

@@ -1,0 +1,53 @@
+.client-comments {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .comment {
+    flex: 1;
+    margin: 0 10px; 
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .comment-light {
+    background-color: #f0f0f0; 
+    color: #333; 
+  }
+  
+  .comment-green {
+    background-color: #4caf50; 
+    color: #fff; 
+  }
+  
+  .comment-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .comment-text {
+    margin-bottom: 10px;
+  }
+  
+  .comment-divider {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 80%; 
+  }
+  
+  .comment-author {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-photo {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    margin-right: 10px; 
+  }
+  
+  .author-name {
+    font-weight: bold; 
+  }
