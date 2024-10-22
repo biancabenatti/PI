@@ -6,6 +6,7 @@ import Header from '../components/Header/Header';
 import HowItWork from '../components/HowItWork/HowItWork';
 import Tips from '../components/Tips/Tips';
 import Footer from '../components/Footer/Footer';
+import ContactUs from '../components/ContactUs/ContactUs';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <AboutUs />
       <ClientComments />
       <FAQ />
+      <ContactUs />
       <Footer/>
     </div>
   );
