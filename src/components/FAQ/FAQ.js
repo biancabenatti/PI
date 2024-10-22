@@ -26,7 +26,6 @@ const FAQ = () => {
       <img src={faq} alt="FAQ" class="faq-image" />
       <div class="faq" id="faq-section">
         <h2>Perguntas Frequentes (FAQ)</h2>
-        {/* Mapeia sobre o array de perguntas e respostas */}
         {faqs.map((faq, index) => (
           <div key={index} class="question-faq">
             <strong>{faq.question}</strong>

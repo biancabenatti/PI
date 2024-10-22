@@ -10,37 +10,37 @@
   
   .caixas {
     display: flex;
-    align-items: center; /* Centraliza verticalmente os itens */
-    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; 
+    justify-content: center; 
     margin-bottom: 20px;
   }
   
   .caixa {
     border: 1px solid #ccc;
     padding: 20px;
-    width: 50px; /* Largura da caixa */
-    height: 50px; /* Altura da caixa */
+    width: 50px; 
+    height: 50px; 
     border-radius: 5px;
     background-color: #f9f9f9;
     display: flex;
-    align-items: center; /* Centraliza o número verticalmente */
-    justify-content: center; /* Centraliza o número horizontalmente */
-    margin: 0 10px; /* Espaço entre as caixas e a seta */
+    align-items: center;
+    justify-content: center; 
+    margin: 0 10px; 
   }
   
   .seta {
-    font-size: 2em; /* Tamanho da seta */
-    margin: 0 10px; /* Espaço entre a seta e as caixas */
+    font-size: 2em; 
+    margin: 0 10px; 
   }
   
   .descricoes {
     display: flex;
-    justify-content: space-around; /* Espaço entre as descrições */
+    justify-content: space-around;
   }
   
   p {
-    width: 30%; /* Largura das descrições */
-    font-size: 1em; /* Tamanho do texto do parágrafo */
-    color: #555; /* Cor do texto */
+    width: 30%; 
+    font-size: 1em; 
+    color: #555; 
   }
   
