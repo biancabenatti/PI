@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header from '../../components/Header/Header';
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -25,6 +26,7 @@ const Register = () => {
 
   return (
     <main className="">
+      <Header/>
       <div className="">
         <h1 className="">Cadastre-se</h1>
       </div>

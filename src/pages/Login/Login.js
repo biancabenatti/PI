@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header from '../../components/Header/Header';
 
 const Login = () => {
   const [credentials, setCredentials] = useState({
@@ -19,6 +20,7 @@ const Login = () => {
 
   return (
     <main className="">
+      <Header />
       <div className="">
         <h1 className="">Login</h1>
       </div>

@@ -2,16 +2,16 @@
 .header {
     display: flex;
     align-items: center;
-    padding: 10px 30px;
+    padding: 20px 30px;
     background-color: #0c4a6e; 
   }
-  .logo{
-    width: 70%;
-  }
-  .logo-image{
-    max-width: 30%; 
-    max-height: 30%; 
  
+  .logo-image{
+    max-width: 10%; 
+    max-height: 10%; 
+    width: 70%;
+    margin-right: 20rem;
+    margin-left: 5rem;
   }
   
   .nav {
@@ -37,12 +37,12 @@
   }
   
   .login-button {
-    background-color: yellow; 
-    color: #ffffff; 
+    background-color: #fde047; 
+    color: #0c4a6e; 
   }
   
   .register-button {
-    background-color: blue; 
+    background-color: #0ea5e9; 
     color: white; 
   }
   
