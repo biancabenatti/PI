@@ -22,9 +22,9 @@ const FAQ = () => {
   ];
 
   return (
-    <div class="faq-container">
+    <div class="faq-container" id="faq-section">
       <img src={faq} alt="FAQ" class="faq-image" />
-      <div class="faq" id="faq-section">
+      <div class="faq">
         <h2>Perguntas Frequentes (FAQ)</h2>
         {faqs.map((faq, index) => (
           <div key={index} class="question-faq">

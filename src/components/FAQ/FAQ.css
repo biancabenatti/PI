@@ -9,8 +9,7 @@
 .faq-image {
     flex: 1;
     max-width: 30%;
-    max-height: 30%;
-    width: 50%;
+    height: auto;
     margin-right: 5rem;
     margin-left: 10rem;
 }

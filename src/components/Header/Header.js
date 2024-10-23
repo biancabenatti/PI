@@ -5,8 +5,7 @@ import Logo from '../../assets/Logo.png';
 
 const Header = () => {
   return (
-    <div id="home">
-      <header className="header">
+      <header className="header" id="home">
         <img src={Logo} alt="Logo da Empresa" className="logo-image" />
         <nav className="nav">
           <ul className="nav-list">
@@ -20,7 +19,6 @@ const Header = () => {
           </ul>
         </nav>
       </header>
-    </div>
   );
 };
 

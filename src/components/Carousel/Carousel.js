@@ -9,12 +9,12 @@ const Carousel = () => {
   const settings = {
     dots: false, // Desativa os pontos de navegação
     infinite: true, // loop infinito.
-    speed: 500, // Velocidade
+    speed: 400, // Velocidade
     slidesToShow: 1, // quantos slides serão exibidos ao mesmo tempo
     slidesToScroll: 1, //  quantos slides serão rolados de cada vez quando o usuário navega.
-    arrows: true, // Ativa os botões de navegação
     autoplay: true, // Ativa o autoplay
-    autoplaySpeed: 3000, // Define a velocidade do autoplay (3 segundos)
+    autoplaySpeed: 4000, // Define a velocidade do autoplay (3 segundos)
+    arrows: false, // Desativa as setas de navegação
   };
 
   return (

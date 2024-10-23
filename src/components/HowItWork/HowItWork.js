@@ -4,8 +4,7 @@ import vetor from '../../assets/Vector 5.png';
 
 const HowItWork = () => {
   return (
-    <div id="how-it-work-section">
-      <section class="como-funciona">
+      <section class="como-funciona" id="how-it-work-section">
         <h2 class="titulo-centralizado">Como Funciona</h2>
         <div class="caixas">
           <div class="caixa">
@@ -30,9 +29,6 @@ const HowItWork = () => {
           <p>Descrição detalhada do passo 3.</p>
         </div>
       </section>
-    </div>
-
-
   )
 }
 
