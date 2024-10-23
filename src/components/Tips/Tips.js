@@ -5,19 +5,19 @@ import './Tips.css'; // Estilos para o componente
 const Tips = () => {
   const tipsData = [
     {
-      title: "Dica 1",
-      description: "Aprenda a organizar suas notas de forma eficiente.",
-      link: "https://example.com/tip1", // Substitua pelo link desejado
+      title: "Construção de casas: documentação necessária",
+      description: "Saiba quais são os documentos necessários para a construção de casas.",
+      link: "https://avt.com.br/construcao-de-casas-documentacao-necessaria/", // Substitua pelo link 
     },
     {
       title: "Dica 2",
       description: "Utilize cores diferentes para categorizar suas notas.",
-      link: "https://example.com/tip2", // Substitua pelo link desejado
+      link: "https://example.com/tip2", // Substitua pelo link 
     },
     {
       title: "Dica 3",
       description: "Revise suas notas regularmente para melhor retenção.",
-      link: "https://example.com/tip3", // Substitua pelo link desejado
+      link: "https://example.com/tip3", // Substitua pelo link 
     },
   ];
 
