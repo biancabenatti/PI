@@ -2,7 +2,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import './Carousel.css';
-import Banner_1 from '../../assets/Banner_Teste.png';
+import Banner_1 from '../../assets/Banner_teste.png';
 import Banner_2 from '../../assets/Banner_02.png';
 
 const Carousel = () => {

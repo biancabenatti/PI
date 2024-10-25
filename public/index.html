@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
@@ -20,7 +21,11 @@
 
 <body>
   <div id="root"></div> <!-- Ponto de entrada do React -->
-  <script src="%PUBLIC_URL%/index.js"></script> <!-- Script principal do React -->
+  <script src="%PUBLIC_URL%/index.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
 </body>
 
 </html>
