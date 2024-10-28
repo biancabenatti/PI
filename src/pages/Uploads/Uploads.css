@@ -1,0 +1,71 @@
+.delete {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: black
+}
+
+button:hover {
+    background-color: transparent;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Estilo geral da tabela */
+.files {
+    text-align: center;
+    width: 70%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    /* Garante que as bordas arredondadas sejam aplicadas corretamente */
+
+}
+
+
+.files th,
+.files td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+.files th {
+    background-color: #f2f2f2;
+}
+
+.files tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.files tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo para o estado vazio */
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.empty-state img {
+    max-width: 200px;
+    height: auto;
+}
+
+.empty-state p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}

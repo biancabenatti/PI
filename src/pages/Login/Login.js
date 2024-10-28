@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import Header from '../../components/Header/Header';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const [credentials, setCredentials] = useState({
     email: '',
     senha: '',
   });
+
+  const navigate = useNavigate();
 
   const handleChange = (e) => { // Esta função é chamada sempre que o valor de um dos campos de entrada muda (quando o usuário digita).
     const { name, value } = e.target;
@@ -16,11 +18,18 @@ const Login = () => {
     e.preventDefault();
     console.log('Credenciais do usuário:', credentials);
     // Lógica para autenticar o usuário.
+    if (credentials.email && credentials.senha) {
+      // Após a validação bem-sucedida:
+      navigate('/uploads'); // Redireciona para a página de uploads
+    }
+  };
+
+  const handleGoHome = () => {
+    navigate('/'); // Redireciona para a home
   };
 
   return (
     <main className="">
-      <Header />
       <div className="">
         <h1 className="">Login</h1>
       </div>
@@ -56,6 +65,7 @@ const Login = () => {
           <button type="submit" className="botao">Login</button>
           <a href="/esqueceu-senha" className="link-esqueceu-senha">Esqueceu a senha?</a>
         </form>
+        <button onClick={handleGoHome} className="botao voltar">Voltar para a Home</button>
       </section>
     </main>
   );

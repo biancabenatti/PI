@@ -1,0 +1,57 @@
+/* Modal Container */
+.modal {
+    position: fixed; /* Fica fixo na tela */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    z-index: 1000; 
+  }
+  
+  /* Formulário dentro do modal */
+  .modal form {
+    background: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    width: 400px; 
+  }
+  
+  /* Estilização dos inputs */
+  input[type="file"],
+  input[type="text"],
+  textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+  }
+  
+  /* Estilização do botão */
+  .button_components{
+    display: flex;
+    gap: 10px;
+  }
+
+  button {
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  /* Efeito ao passar o mouse sobre o botão */
+  button:hover {
+    background-color: #0056b3; 
+  }
+  
