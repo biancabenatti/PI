@@ -9,19 +9,22 @@ const ContactUs = () => {
     message: '',
   });
 
+  // handleChange é chamada sempre que um campo do formulário muda.
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    //const name = e.target.name; 
+    //const value = e.target.value; 
+    const { name, value } = e.target; // name é o nome do campo e value é o valor do campo.
+    setFormData({ ...formData, [name]: value }); // [name]: value: A chave entre colchetes ([name]) permite que você use o valor da variável name como a chave do objeto. Isso significa que a propriedade correspondente a name no objeto será atualizada para o novo value.
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e) => { // é chamada ao enviar o formulário.
     e.preventDefault();
-    // Aqui você pode adicionar a lógica para enviar os dados para a API ou serviço de email
+    // Aqui adicionar a lógica para enviar os dados para a API ou para o backend.
     console.log('Dados enviados:', formData);
     // Limpar o formulário após o envio
     setFormData({ name: '', email: '', phone: '', message: '' });
   };
-
+  // onChange chama handleChange para atualizar o estado sempre que o usuário digita.
   return (
     <div className="contact-us">
       <h2>Fale Conosco</h2>

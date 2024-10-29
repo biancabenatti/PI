@@ -24,9 +24,15 @@ const Uploads = () => {
   };
 
   const deleteFile = (index) => {
+    // filter é uma função de array que cria um novo array contendo todos os elementos que atendem a uma condição específica. 
+    // filter recebe dois parâmetros:
+    //(OBRIGATORIO) O primeiro parâmetro, que geralmente representa o elemento atual do array, está sendo ignorado com _. O caractere _ é uma convenção comum em JavaScript para indicar que o valor não será usado.
+    //O segundo parâmetro i é o índice do elemento atual no array.
     const newFiles = files.filter((_, i) => i !== index); // Remove o arquivo selecionado.
     setFiles(newFiles); // Atualiza a lista de arquivos.
   };
+  // ATENÇÂO quando o i = 0 (arquivo 'file1.txt'): 0 !== 1 é true, então ele é incluído.
+  // Para i = 1 (arquivo 'file2.txt'): 1 !== 1 é false, então ele é excluído.
 
   return (
     <div>

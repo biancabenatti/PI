@@ -19,11 +19,7 @@ const Carousel = () => {
 
   return (
     <div className="carousel-container">
-      <Slider {...settings}>
-        {/* 
-    <Slider>: Este é o componente que renderiza o carrossel. 
-    O operador de propagação {...settings} é usado para passar as configurações do carrossel para o componente Slider.
-  */}
+      <Slider {...settings}> {/* <Slider>: Este é o componente que renderiza o carrossel.  O operador de propagação {...settings} é usado para passar as configurações do carrossel para o componente Slider.*/}
         <div class="Banner">
           <img src={Banner_1} alt="Banner 1" />
         </div>

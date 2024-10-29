@@ -10,6 +10,7 @@ const Register = () => {
     senha: '',
     confirmarSenha: '', 
   });
+  
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
